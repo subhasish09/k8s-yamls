@@ -17,6 +17,8 @@ spec:
         image: subhasish09/flask2:0.2
         ports:
         - containerPort: 6000
+      imagePullSecrets:
+        - name: dockerhub-credentials
 ---
 apiVersion: v1
 kind: Service
