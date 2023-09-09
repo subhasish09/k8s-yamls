@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend-container
-        image: subhasish09/flask:0.1
+        image: subhasish09/flask:0.2
         ports:
         - containerPort: 5000
 ---

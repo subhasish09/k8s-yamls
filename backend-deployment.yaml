@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: subhasish09/flask2:0.1
+        image: subhasish09/flask2:0.2
         ports:
         - containerPort: 6000
 ---
